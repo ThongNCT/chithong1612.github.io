@@ -114,7 +114,7 @@ function showSlides() {
   var images = ['001.jpg','002.jpg','003.jpg'];
   var content = "<div class=\"mySlides fade\">  <div class=\"numbertext\">";
   for(img in images) {
-    content = content + i + " / " +images.length + "</div>  <img src=\"../assets/img/\" + images[i] + "\" alt=\"003.jpg\" style=\"width:100%\">  <div class=\"text\">Caption Three</div></div>";
+    content = content + i + " / " +images.length + "</div>  <img src=\"../assets/img/\"" + images[i] + "\" alt=\"003.jpg\" style=\"width:100%\">  <div class=\"text\">Caption Three</div></div>";
   }
   var slideshowContainer = document.getElementsByClassName("slideshow-container");
   slideshowContainer.innerHTML = content;
